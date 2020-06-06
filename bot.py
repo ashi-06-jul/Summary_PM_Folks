@@ -3,7 +3,7 @@ import telebot
 from db import DB
 import sqlite3
 
-TOKEN = "1099106816:AAEEfUuB0WKPZ7vieQKk7gbiqGymoGPuFO0"
+TOKEN = "bot_token"
 bot = telebot.TeleBot(token=TOKEN)
 hire=""
 new_technology="" 
