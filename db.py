@@ -8,13 +8,13 @@ class DB:
         self.conn = sqlite3.connect(dbname)
 
     def setup(self):
-        stmt = "CREATE TABLE IF NOT EXISTS INFO(hire text, new_technology text, good_conversations text, doubts text, upcoming_events text)"
+        stmt = "CREATE TABLE IF NOT EXISTS INFO(hire text, new_technology text, good_conversations text, upcoming_events text, doubts text)"
         self.conn.execute(stmt)
         self.conn.commit()
 
-    def add_item(self, hire, new_technology, good_conversations, doubts, upcoming_events):
-        stmt = "INSERT INTO INFO (hire, new_technology, good_conversations, doubts, upcoming_events) VALUES (?, ?, ?, ?, ?)"
-        args = (hire, new_technology, good_conversations, doubts, upcoming_events)
+    def add_item(self, hire, new_technology, good_conversations, upcoming_events, doubts,):
+        stmt = "INSERT INTO INFO (hire, new_technology, good_conversations, upcoming_events, doubts) VALUES (?, ?, ?, ?, ?)"
+        args = (hire, new_technology, good_conversations, upcoming_events, doubts)
         self.conn.execute(stmt, args)
         self.conn.commit()
 
@@ -25,5 +25,5 @@ class DB:
         self.conn.commit()
 
     def get_items(self):
-        stmt = "SELECT Locality, City, Pincode, Email, mode_of_contact, Req, Board, Standard, Subjects, Deal, Confirm FROM INFO"
+        stmt = "SELECT hire, new_technology, good_conversations, upcoming_events, doubts FROM INFO"
         return [x for x in self.conn.execute(stmt)]
