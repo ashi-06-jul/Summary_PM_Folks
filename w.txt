@@ -1,12 +1,10 @@
 6/6/20, 23:32 - Messages to this group are now secured with end-to-end encryption. Tap for more info.
 6/6/20, 23:32 - You created group "Dummy chat"
-6/6/20, 23:32 - Ashii: #introduction 
-Hello I am Ashi
+6/6/20, 23:32 - Ashii: #introduction Hello I am Ashi
 6/6/20, 23:32 - paran: #hire i am looking for a product designer
 6/6/20, 23:32 - paran: #hire i am looking for marketing person
 6/6/20, 23:33 - paran: #questions how do we use json in python data structures
-6/6/20, 23:33 - Ashii: #doubt
-Are you looking for experienced person or a fresher
+6/6/20, 23:33 - Ashii: #doubt Are you looking for experienced person or a fresher
 6/6/20, 23:33 - paran: #new_technology AI is a very new technology for me
 6/6/20, 23:33 - paran: #events we are having a webinar next thursday with nrityagram folks
 6/6/20, 23:34 - paran: #hire i am looking for somebody who can do small time project in watershed
