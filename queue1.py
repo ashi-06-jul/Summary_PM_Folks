@@ -29,10 +29,12 @@ with open('w.txt', "r", encoding='utf-8') as infile:
 listt = []
 category1 = []
 def noRepeat():
+    regex_category = r'(#\w+|#+)'
     for (k,v) in outputData['category'].items():
       if v not in p:
-          listt.append(outputData['category'][k])
-          listt.append(outputData['text'][k])
+         if re.search(regex_category,v):
+            listt.append(re.findall(regex_category, v)) 
+            listt.append(outputData['text'][k])
 def Repeat(x): 
       _size = len(x) 
       repeated = [] 
@@ -50,7 +52,15 @@ def Repeat(x):
                   else:
                     continue
       return repeated 
+def inBetween():
+    regex_category = r'(#\w+|#+)'
+    for (k,v) in outputData['text'].items():
+      if v not in p:
+         if re.search(regex_category,v):
+            listt.append(re.findall(regex_category, v)) 
+            listt.append(outputData['text'][k])
 p=Repeat(outputData['category'])
 noRepeat()
+inBetween()
 print(listt)
  
