@@ -25,7 +25,9 @@ with open('w.txt', "r", encoding='utf-8') as infile:
    
     outputData = pd.DataFrame(outputData)
     outputData.to_json('output.json',indent=4)
-listt= []
+
+listt = []
+category1 = []
 def noRepeat():
     for (k,v) in outputData['category'].items():
       if v not in p:
@@ -34,17 +36,19 @@ def noRepeat():
 def Repeat(x): 
       _size = len(x) 
       repeated = [] 
+      regex_category = r'(#\w+|#+)'
       for i in range(_size): 
         k = i + 1
         for j in range(k, _size): 
-            if x[i] == x[j] and x[i] not in repeated: 
-                  repeated.append(x[i]) 
-                  listt.append(x[i])
-                  for i in range(_size):
-                    if x[i] == x[j]:
-                      listt.append(outputData['text'][i])
-                    else:
-                      continue
+            if re.search(regex_category,x[i]):
+              if x[i] == x[j] and x[i] not in repeated: 
+                repeated.append(x[i]) 
+                listt.append(re.findall(regex_category, x[i]) or "{undefined}") 
+                for i in range(_size):
+                  if x[i] == x[j]:
+                    listt.append(outputData['text'][i])
+                  else:
+                    continue
       return repeated 
 p=Repeat(outputData['category'])
 noRepeat()
