@@ -71,7 +71,7 @@ def stop_timer(bot, update, job_queue):
                       text='Stoped!')
     job_queue.stop()
 
-updater = Updater("your_bot_token")
+updater = Updater("1184324197:AAFChlWE5tU5X4lzHq-mQHvhxNIYisCqq1U")
 updater.dispatcher.add_handler(CommandHandler('start', callback_timer, pass_job_queue=True))
 updater.dispatcher.add_handler(CommandHandler('stop', stop_timer, pass_job_queue=True))
 
