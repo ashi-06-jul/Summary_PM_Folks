@@ -1,0 +1,41 @@
+6/19/20, 12:03 - Messages to this group are now secured with end-to-end encryption. Tap for more info.
+6/19/20, 12:04 - paran: #new-joining: Hi my name is Paran, Ashi and I are creating this dummy-chat for the demo of the PM folks bot today
+6/19/20, 12:04 - paran: https://stackoverflow.com/questions/5884517/python-assign-print-output-to-a-variable check this
+6/19/20, 12:04 - paran: https://github.com/ashi-06-jul/Summary_PM_Folks updated bot will be found here by 1PM
+6/19/20, 12:05 - paran: #hire I am looking to get hired these months, maybe in a basic programming and research job
+6/19/20, 12:05 - paran: #doubts i am thankful to my partner Ashi for the numerous doubts she clears for me
+6/19/20, 12:06 - paran: #new_technology - python has launched a new version of its language which is still in #beta version
+6/19/20, 12:06 - Ashii KIET: #telegram
+6/19/20, 12:07 - paran: but is it possible to do anything on telegram?
+6/19/20, 12:07 - paran: the current bot will be able to detect #category
+6/19/20, 12:07 - paran: it will also be able to detect https
+6/19/20, 12:07 - paran: but I am not sure whether it can detect question marks?
+6/19/20, 12:08 - Ashii KIET: #update till now whatever our need was we are able to do it on telegram bots
+6/19/20, 12:15 - Ashii KIET: #ALL please send hashtag messages for testing of bot
+6/19/20, 12:15 - Garima Sengar: #okay hello
+6/19/20, 12:15 - Ashii KIET: We can now use #category in #anywhere in the message
+6/19/20, 12:16 - Garima Sengar: This is #cool
+6/19/20, 12:16 - Garima Sengar: #gimme some #time
+6/19/20, 12:17 - paran: i have created channel for the #telegram bot
+6/19/20, 12:17 - paran: why are we making such a bot?
+6/19/20, 12:17 - paran: so that #summaries can be circulated amongst people who have less time to read whatsapp messages
+6/19/20, 12:18 - paran: the whatsapp group for which we are working right now is called #pmcommunity
+6/19/20, 12:18 - Ashii KIET: #update it will be great for gathering useful information
+6/19/20, 12:18 - paran: it is a community of #productmanagers
+6/19/20, 12:18 - paran: they asking questions like these?
+6/19/20, 12:18 - paran: #connect i am looking to connect with somebody in Rapido
+6/19/20, 12:18 - paran: #hire I want to hire a designer for my startup
+6/19/20, 12:19 - Ashii KIET: #hire I am looking for a developer having experience in flutter
+6/19/20, 12:19 - paran: #upcoming_events - bangalore has alot of plantation drives
+6/19/20, 12:19 - paran: #upcoming_event - RadicalXchange conference is happening this weekend!
+6/19/20, 12:19 - Garima Sengar: This is all about the #testing purpose
+6/19/20, 12:19 - Garima Sengar: How many messages we need to send ?
+6/19/20, 12:19 - Ashii KIET: #doubts same here @918296887106
+6/19/20, 12:20 - Ashii KIET: Atleast 40 to 50
+6/19/20, 12:20 - paran: how many have we done till now?
+6/19/20, 12:20 - paran: to read #40messages we need #8moremessages
+6/19/20, 12:21 - paran: https://t.me/summarybeta link 
+6/19/20, 12:21 - paran: #update join this telegram channel to see testing through the bot
+6/19/20, 12:22 - Ashii KIET: #update Tasks left for bot are reading questions through '?' and lots and lots of testing
+6/19/20, 12:23 - paran: #update i thought question marks were being read already?
+6/19/20, 12:23 - Ashii KIET: #update no links are read

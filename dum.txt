@@ -1,0 +1,90 @@
+6/6/20, 23:32 - Messages to this group are now secured with end-to-end encryption. Tap for more info.
+6/6/20, 23:32 - Paran created group "Dummy chat"
+6/6/20, 23:32 - Paran added you
+6/6/20, 23:32 - Ashi Anand khare: #introduction Hello I am Ashi
+6/6/20, 23:32 - Paran: #hire i am looking for a product designer
+6/6/20, 23:32 - Paran: #hire i am looking for marketing person
+6/6/20, 23:33 - Paran: #questions how do we use json in python data structures
+6/6/20, 23:33 - Ashi Anand khare: #doubt Are you looking for experienced person or a fresher
+6/6/20, 23:33 - Paran: #new_technology AI is a very new technology for me
+
+6/6/20, 23:34 - Paran: #events we are having a webinar next thursday with nrityagram folks
+6/6/20, 23:34 - Paran: #hire i am looking for somebody who can do small time project in watershed
+6/6/20, 23:34 - Ashi Anand khare: #answers found some blogs regarding json
+6/6/20, 23:34 - Ashi Anand khare: #update will figure something till morning
+6/6/20, 23:35 - Paran: #doubt has everybody made the branch on github repository
+6/6/20, 23:35 - Ashi Anand khare: #update I don't know may link is provided on trello
+6/6/20, 23:35 - Ashi Anand khare: #help you check trello
+6/6/20, 23:36 - Paran: #link https://trello.com/invite/b/JNh5rL08/222818264eb36eb0df937f5e117d9afa/whatsappsumbot
+6/6/20, 23:36 - Ashi Anand khare: #update got link from s4
+6/6/20, 23:36 - Ashi Anand khare: #update joined trello
+6/6/20, 23:39 - Ashi Anand khare: #doubt no update on trello
+6/6/20, 23:39 - Paran: #link https://youtu.be/iiADhChRriM
+6/10/20, 18:28 - Abhishek Tiwari Sir joined using this group's invite link
+6/10/20, 18:29 - Abhishek Tiwari Sir: this is a #test string
+6/10/20, 18:30 - Sakshi Kiet joined using this group's invite link
+6/10/20, 18:31 - Ashi Anand khare: I will try to make every #word as a category present anywhere in the message
+6/10/20, 18:37 - Abhishek Tiwari Sir: what #about messages like #these - let's show them in both categories?
+6/10/20, 18:39 - Vibha Ma'am joined using this group's invite link
+6/10/20, 18:45 - Ashi Anand khare: #noted will try to do that
+6/10/20, 18:46 - Ashi Anand khare: Please see if #channel will be a better option or #group will be ok on #telegram
+6/10/20, 18:47 - Bhavya Singh Kiet joined using this group's invite link
+6/10/20, 19:04 - Garu joined using this group's invite link
+6/11/20, 22:29 - Anubhav Sumrux joined using this group's invite link
+6/12/20, 00:20 - Paran: #where are we now with the #pythoncode
+6/12/20, 00:55 - Sakshi Kiet: <Media omitted>
+6/12/20, 00:55 - Sakshi Kiet: https://github.com/sakshigupta1997/Summary_PM_folks_
+6/12/20, 00:56 - Sakshi Kiet: <Media omitted>
+6/12/20, 00:57 - Sakshi Kiet: https://python-telegram-bot.readthedocs.io/en/stable/telegram.ext.jobqueue.html
+6/12/20, 00:59 - Sakshi Kiet: Isme ve methods btaeye hue h jiski help se hum msg send kar sakte h fix time par
+6/12/20, 01:41 - Ashi Anand khare: #error @918059044275
+6/12/20, 02:53 - Vibha Ma'am: #we can take a #session
+6/12/20, 02:54 - Ashi Anand khare: #sure tomorrow after paran's exam after 12:30
+6/12/20, 02:57 - Vibha Ma'am: #okay kjlkjljlj
+6/12/20, 03:17 - Paran: <Media omitted> dfd
+6/12/20, 03:17 - Paran: #join python related groups shall help in doing bot coding
+6/12/20, 03:18 - Paran: #link https://wiki.python.org/moin/BeginnersGuide/NonProgrammers
+6/12/20, 03:19 - Paran: #link https://wiki.python.org/moin/BeginnersGuide/Programmers
+6/12/20, 03:20 - Paran: #link https://docs.python.org/3/tutorial/
+6/12/20, 10:26 - Sakshi Kiet: #okay jkjk
+6/12/20, 22:33 - Paran: i want to #ask something
+6/12/20, 22:34 - Paran: it is not possible to have #multiple #categories but les number of #texts in a json file
+6/12/20, 22:34 - Paran: it is showing #index error
+6/12/20, 22:34 - Paran: This message was deleted
+6/13/20, 16:18 - Ashi Anand khare: #update Bot is deployed and for testing I changed it from 5 second to 6 hours now if it will message me after every 6 hours then we will check for 24 hours
+6/13/20, 16:18 - Garu: #first Check it out for 1 hr
+6/13/20, 16:20 - Ashi Anand khare: #uploaded let's check after 6 hours till then we have other stuff to fo otherwise I have to repeat whole process🙏🙏
+6/13/20, 16:24 - Ashi Anand khare: #work_left 1 Merging d.py and queue.py 2 string manipulation in q.py
+6/13/20, 16:29 - Ashi Anand khare: @919897308577 send me your #token I will execute your bot on another screen with 1 hour and @918296887106  I will run your bot with 12 hours time on another screen so we can all the testing will be done at same time and mine is running with 6 hours time
+6/13/20, 16:31 - Garu: This message was deleted
+6/13/20, 16:37 - Ashi Anand khare: @919897308577 #check run your bot /start
+6/13/20, 16:39 - Ashi Anand khare: #directory I am making 3 directories in which @919897308577 @918296887106 @918059044275  's bot is running with time 1 hour , 12 hour, 24 hour and mine 6 hours 👍
+6/13/20, 17:22 - Ashi Anand khare: <Media omitted>
+6/13/20, 18:11 - Ashi Anand khare: #update code merged output displayed in wrong format uploading it on GitHub start experimenting with code
+6/13/20, 18:13 - Paran: good handwriting
+6/13/20, 18:14 - Ashi Anand khare: jkjk jlk
+6/13/20, 18:47 - Garu: hgjh uk
+6/13/20, 18:48 - Ashi Anand khare: Cool now let's see for another #hour
+6/13/20, 18:48 - Garu: Yupm nk jkkk
+6/13/20, 20:26 - Garu: This message was deleted
+6/13/20, 20:26 - Garu: <Media omitted>
+6/13/20, 20:27 - Ashi Anand khare: Cool now let's see how @918296887106 @918059044275 and my bot works
+6/13/20, 20:28 - Garu: #yoo jkj
+6/14/20, 10:18 - Ashi Anand khare: <Media omitted>
+6/14/20, 10:31 - Paran: Yay jk
+6/14/20, 17:25 - Sakshi Kiet: <Media omitted>
+6/14/20, 17:26 - Sakshi Kiet: After 24 hours df
+6/14/20, 17:36 - Ashi Anand khare: uhuihijkl  jkkl
+6/14/20, 17:50 - Paran: #greatcoding hj
+6/15/20, 15:24 - Paran: #hire I have been looking for ways to make money
+6/15/20, 15:25 - Paran: #update project is going a bit slow but now we are back in action
+6/15/20, 15:25 - Paran: #link https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/johnson-johnson-expects-nod-for-covid-vaccine-by-early-2021-paul-stoffels-chief-scientific-officer-jj/articleshow/76377908.cms?utm_source=newsletter&utm_medium=email&utm_campaign=NewsDigest1&utm_content=Industry&utm_term=2&ncode=175ceef40cb4dc1f7a375843ea795a80
+6/15/20, 15:26 - Paran: #link https://economictimes.indiatimes.com/industry/cons-products/food/soft-drinks-production-back-to-normal-says-pepsi-bottler/primeshow/76377777.cms
+6/15/20, 15:26 - Paran: #link https://economictimes.indiatimes.com/news/politics-and-nation/after-straining-india-ties-nepal-looks-to-reject-us-aid/articleshow/76377989.cms?utm_source=newsletter&utm_medium=email&utm_campaign=NewsDigest1&utm_content=News&utm_term=2&ncode=175ceef40cb4dc1f7a375843ea795a80
+6/15/20, 15:27 - Abhishek Tiwari Sir: Links won't have #link but http Questions won't have #queation but "?"
+6/15/20, 15:28 - Paran: #next steps: we need to fix the spacing error coming in the chat #next steps: we need to look at the 'matches' in the code
+6/15/20, 15:28 - Paran: #things to do: https for #links '?' for #question
+6/15/20, 15:29 - Paran: #timer is working: thanks to Sakshi and Garima, and Ashi for putting it onto the server
+6/15/20, 15:36 - Paran: #upcoming events: 19th-22nd June is the annual meet up of RadicalXchange, let me know if you need the link to join in
+6/15/20, 15:37 - Paran: #no-code conference was brilliant, we are looking forward for the hindi one whenever it happens #error will the error show or not for the line spacing above
+6/15/20, 15:38 - Paran: where do the birds go when they die?

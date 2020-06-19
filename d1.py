@@ -14,7 +14,7 @@ with open('w.txt', "r", encoding='utf-8') as infile:
     for line1 in infile:
       if re.search(regex_questions, line1):
         questions.append(re.findall(regex_questions, line1) or "{undefined}") 
-with open('w.txt', "r", encoding='utf-8') as infile:
+with open('w1.txt', "r", encoding='utf-8') as infile:
     for line2 in infile:
       if re.search(regex_category, line2):
         category.append(re.findall(regex_category, line2) or "{undefined}")

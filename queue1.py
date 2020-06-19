@@ -3,7 +3,7 @@ from datetime import datetime
 import pandas as pd
 import json
 from iteration_utilities import duplicates
-with open('w.txt', "r", encoding='utf-8') as infile:
+with open('dum.txt', "r", encoding='utf-8') as infile:
     outputData = { 'date': [], 'sender': [],'category': [], 'text': [] }
     for line in infile:
         matches = re.match(r'^(\d{1,2})\/(\d{1,2})\/(\d\d), (24:00|2[0-3]:[0-5][0-9]|[0-1][0-9]:[0-5][0-9]) - ((\S[^:]*?): )?(.*)$', line)
@@ -16,18 +16,22 @@ with open('w.txt', "r", encoding='utf-8') as infile:
               hour=int(matches.group(4)[0:2]),
               minute=int(matches.group(4)[3:])
             ))
-          outputData['sender'].append(matches.group(6) or "{undefined}")
+          try:
+            outputData['sender'].append(matches.group(6) or "{undefined}")
+          except:
+            outputData['sender'].append(' ')
           outputData['category'].append(matches.group(7).split(' ')[0] or "{undefined}")
-          outputData['text'].append(matches.group(7).split(' ', 1)[1])
-
+          try:
+            outputData['text'].append(matches.group(7).split(' ', 1)[1] or "{undefined}")
+          except IndexError: 
+            outputData['text'].append(" ")
         elif len(outputData['text']) > 0:
           outputData['text'][-1] += "\n" + line[0:-1]
-   
     outputData = pd.DataFrame(outputData)
-    outputData.to_json('output.json',indent=4)
-
+    outputData.to_json('output.json',indent=4)  
 listt = []
-category1 = []
+starting_line='Scrolling through Whatsapp groups are a painful task. Let us give you a brief summary of what all happened on your PM Community group this week.'
+listt.append(starting_line)
 def noRepeat():
     regex_category = r'(#\w+|#+)'
     for (k,v) in outputData['category'].items():
@@ -59,8 +63,26 @@ def inBetween():
          if re.search(regex_category,v):
             listt.append(re.findall(regex_category, v)) 
             listt.append(outputData['text'][k])
+def link(l):
+    regex_links = r'^https?.+|\bhttps?.+'
+    link_name='#links'
+    listt.append(link_name)
+    for (k,v) in outputData['text'].items():
+        if re.search(regex_links,v):
+            #listt.append(re.findall(regex_links, v)) 
+            listt.append(outputData['text'][k])
+#def end(l):
+ #   regex_questions = r'.*\?.+'
+  #  q_name='#questions'
+   # listt.append(q_name)
+   # for (k,v) in outputData['text'].items():
+    #    if re.search(regex_questions,v):
+     #       #listt.append(re.findall(regex_links, v)) 
+      #      listt.append(outputData['text'][k])
 p=Repeat(outputData['category'])
 noRepeat()
 inBetween()
-print(listt)
- 
+link(outputData['text'])
+#end(outputData['text'])
+var=print('\n'.join(map(str, listt)))
+print(var)
