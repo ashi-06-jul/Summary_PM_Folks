@@ -1,0 +1,43 @@
+6/06/20, 23:30 - Ashi Anand khare: Jab aygi tab #kaam karti hu
+6/09/20, 23:37 - Paran: 😂
+6/11/20, 23:38 - Ashi Anand khare: A gai 🙆‍♀️
+6/14/20, 00:03 - Paran: bhai
+6/15/20, 00:03 - Paran: what did you make of the #document i made?
+6/16/20, 00:03 - Ashi Anand khare: Yaar thoda #time ruk jati
+6/16/20, 00:03 - Paran: i find it so #cringy
+6/16/20, 00:03 - Ashi Anand khare: Hein
+6/16/20, 00:04 - Paran: ruk jaati as in?
+6/17/20, 00:04 - Ashi Anand khare: col kr ri hu
+6/17/20, 00:04 - Ashi Anand khare: rcv #kro
+6/17/20, 00:10 - Paran: "colou?r"
+6/17/20, 00:10 - Paran: color and colour
+6/18/20, 00:11 - Paran: colouur
+6/18/20, 00:24 - Ashi Anand khare: <Media omitted>
+6/18/20, 00:30 - Paran: https://github.com/abbasidaniyal
+6/18/20, 00:49 - Ashi Anand khare: <Media omitted>
+6/18/20, 00:53 - Paran: [+\?]
+6/19/20, 00:53 - Paran: [+]?
+6/20/20, 00:54 - Ashi Anand khare: ([+\?]|[\S\d]
+6/20/20, 00:54 - Paran: This message was deleted
+6/20/20, 00:58 - Paran: This message was deleted
+6/20/20, 00:59 - Paran: ((\S\d\+?[^:]*?):
+6/20/20, 01:06 - Ashi Anand khare: ( )|(.*)$
+6/20/20, 01:06 - Paran: (\S\d\+?[^:]*?):|(    )
+6/20/20, 01:10 - Paran: Join Zoom Meeting
+https://us04web.zoom.us/j/73348690448?pwd=TksvaXFRdUdFaFpYak1nMG9tSmpqQT09
+
+Meeting ID: 733 4869 0448
+Password: 6ZX05K
+6/20/20, 01:15 - Ashi Anand khare: <Media omitted>
+6/20/20, 01:43 - Ashi Anand khare: Bhai chal gya
+6/20/20, 01:43 - Ashi Anand khare: Abhishek is #great
+6/20/20, 01:43 - Paran: balle balle
+6/20/20, 01:43 - Paran: shava shava
+6/20/20, 03:14 - Ashi Anand khare: https://stackoverflow.com/questions/29305131/problems-with-pandas
+6/20/20, 03:15 - Ashi Anand khare: Shayad ye kuch error se related hai but abi mai so ri hu kuch smj ni a rha hai ab
+6/20/20, 03:15 - Ashi Anand khare: I am happy ki ye #process ho gya
+6/20/20, 03:19 - Ashi Anand khare: Ek ar baat tm ye wala code kisi alag folder me dal ke testing karna ar purana wala code aise hi rhne dena
+6/20/20, 03:20 - Ashi Anand khare: Mje dhyan ni rha wrna Mai backup le leti
+6/20/20, 03:25 - Ashi Anand khare: Hume date ke liye or "|" use karna padega take ye dono le le 06/07/20 and 06/07/2020
+6/20/20, 03:29 - Ashi Anand khare: Bhai kuch log hai #level one wale group me jinko python ati h unko hum wo wla project de skte hai bot wala jo tm keh ri thi next week se bnana h
+6/20/20, 04:35 - Paran: suno

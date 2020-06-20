@@ -3,14 +3,15 @@ from queue1 import listt
 
 print('\n'.join(map(str, listt)))
 summary = ('\n'.join(map(str, listt)))
+
 def callback_alarm(bot, job):
-    bot.send_message(chat_id=job.context, text=summary)
+    bot.send_message(chat_id=job.context, text= summary )
     #bot.send_message(chat_id='1076770159', text='Wait for some min')
 
 def callback_timer(bot, update, job_queue):
     bot.send_message(chat_id=update.message.chat_id,
                       text='Starting!')
-    job_queue.run_repeating(callback_alarm, 21600, context=update.message.chat_id)
+    job_queue.run_repeating(callback_alarm, 15, context=update.message.chat_id)
 
 def stop_timer(bot, update, job_queue):
     bot.send_message(chat_id=update.message.chat_id,
