@@ -44,25 +44,28 @@ Previous_Date_Formatted = Previous_Date.strftime ('%Y%m%d%H%M') # format the dat
 #print ('Previous Date: ' + str(Previous_Date_Formatted))
 d=int(Previous_Date_Formatted)
 dd=int(Current_Date_Formatted)
-#print(d)
-for d in range(d, dd): 
+print(d)
+print(dd)
+for de in range(d, dd): 
     listt = []
     starting_line='Scrolling through Whatsapp groups are a painful task. Let us give you a brief summary of what all happened on your PM Community group this week.'
     listt.append(starting_line)
     def noRepeat():
       regex_category = r'(#\w+|#+)'
-      for (k,v) in outputData['category'].items():
-        if v not in p:
-           if re.search(regex_category,v):
-              listt.append(re.findall(regex_category, v)) 
+      s=len(outputData['text'])
+      for i in range(de,s):
+        for (k,v) in outputData['category'].items():
+          if v not in p:
+             if re.search(regex_category,v):
+                listt.append(re.findall(regex_category, v)) 
             #  listt.append(Previous_Date_Formatted)
-              listt.append(outputData['sender'][k])
-              listt.append(outputData['text'][k])
+                listt.append(outputData['sender'][k])
+                listt.append(outputData['text'][k])
     def Repeat(x): 
         _size = len(x) 
         repeated = [] 
         regex_category = r'(#\w+|#+)'
-        for i in range(_size): 
+        for i in range(de,_size): 
           k = i + 1
           for j in range(k, _size): 
             if re.search(regex_category,x[i]):
@@ -78,24 +81,28 @@ for d in range(d, dd):
                     continue
         return repeated 
     def inBetween():
+      s=len(outputData['text'])
       regex_category = r'(#\w+|#+)'
-      for (k,v) in outputData['text'].items():
-        if v not in p:
-           if re.search(regex_category,v):
-              listt.append(re.findall(regex_category, v)) 
+      for i in range(de,s):
+        for (k,v) in outputData['text'].items():
+          if v not in p:
+             if re.search(regex_category,v):
+                listt.append(re.findall(regex_category, v)) 
             #  listt.append(Previous_Date_Formatted)
-              listt.append(outputData['sender'][k])
-              listt.append(outputData['text'][k])
+                listt.append(outputData['sender'][k])
+                listt.append(outputData['text'][k])
     def link(l):
       regex_links = r'^https?.+|\bhttps?.+'
       link_name='#links'
       listt.append(link_name)
-      for (k,v) in outputData['text'].items():
-          if re.search(regex_links,v):
+      s=len(outputData['text'])
+      for i in range(de,s):
+        for (k,v) in outputData['text'].items():
+            if re.search(regex_links,v):
             #listt.append(re.findall(regex_links, v)) 
            # listt.append(Previous_Date_Formatted)
-              listt.append(outputData['sender'][k])
-              listt.append(outputData['text'][k])
+                listt.append(outputData['sender'][k])
+                listt.append(outputData['text'][k])
 #def end(l):
  #   regex_questions = r'.*\?.+'
   #  q_name='#questions'
